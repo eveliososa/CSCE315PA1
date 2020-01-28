@@ -1,0 +1,63 @@
+.front-top{
+    height: 120px;
+    padding: 35px 4% 0px 4%;
+    background-color: white;
+    position: fixed;
+}
+.front-top-button{
+    color: black;
+}
+.front-top-button:hover{
+    color: #626567;
+}
+.front-top-title{
+    color: black;
+}
+.front-top-title:hover{
+    color: #626567;
+}
+.front-middle{
+    padding: 120px 0px 0px 0px;
+    background-color: white;
+}
+.front-bottom{
+    height: 120px;
+    padding: 20px 4%;
+    background-color: white;
+}
+.front-bottom-button{
+    color: black;
+}
+.front-bottom-button:hover{
+    color: #626567;
+}
+.social-links-container{
+    position: fixed;
+}
+.front-middle-title{
+    color: black;
+}
+
+/* PROFESSIONAL PAGE */
+.resume{
+    width: 60%;
+    margin: 40px 20%;
+}
+.professional-text{
+    width: 60%;
+    font-family: 'Alata', sans-serif;
+    margin: 40px auto;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* NAV STYLES */
+.top-line{
+    border-left: 1px solid black;
+}
+.middle-line{
+    border-left: 1px solid black;
+}
+.bottom-line{
+    border-left: 1px solid black;
+}

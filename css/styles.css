@@ -1,0 +1,116 @@
+/* FRONT PAGE TOP */
+.front-top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.front-top-button-container{
+    text-align: right;
+}
+.front-top-button{
+    font-size: 60px !important;
+}
+.front-top-button:hover{
+    text-decoration: none;
+}
+.front-top-title-container{
+    text-align: left;
+}
+.front-top-title{
+    font-size: 46px;
+    font-family: 'Alata', sans-serif;
+}
+.front-top-title:hover{
+    text-decoration: none;
+}
+.front-top-up-button-container{
+    text-align: center;
+}
+
+
+
+/* FRONT PAGE BOTTOM */
+.front-bottom{
+    text-align: center;
+}
+.front-bottom-button{
+    font-size: 60px;
+}
+.front-bottom-button:hover{
+    text-decoration: none;
+}
+
+/* NAV */
+.front-nav{
+    display: none;
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    max-width: 600px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border-left: .5px solid #E5E7E9; 
+    border-bottom: .5px solid #E5E7E9;
+    padding-bottom: 20px;
+    z-index: 1000 !important;
+}
+.front-nav-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    padding: 35px 4vw;
+    grid-template-rows: auto;
+}
+.front-nav-button-container{
+    text-align: right;
+    margin-bottom: 25px;
+}
+.front-nav-button{
+    color: black;
+    font-size: 60px !important;    
+}
+.front-nav-button:hover{
+    color: #616A6B;
+}
+.front-nav-link{
+    padding: 20px 10px;
+    margin: 20px 0px;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+}
+.front-nav-link a{
+    color: black;
+}
+.front-nav-link a:hover{
+    color: #616A6B;
+}
+.front-middle-title{
+    font-size: 35px;
+    font-family: 'Alata', sans-serif;
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+/* SOCIAL LINKS */
+.social-links-container{
+    bottom: 0;
+    left: 4vw;
+    vertical-align: bottom;
+}
+.top-line{
+    height: 70px;
+    margin-left: 15px;
+}
+.middle-line{
+    height: 25px;
+    margin-left: 15px;
+}
+.bottom-line{
+    height: 70px;
+    margin-left: 15px;
+}
+.social-link{
+    font-size: 30px;
+}
+

@@ -1,0 +1,95 @@
+.front-top{
+    height: 120px;
+    padding: 35px 4% 0px 4%;
+    background-color: white;
+    position: fixed;
+}
+.front-top-button{
+    color: black;
+}
+.front-top-button:hover{
+    color: #626567;
+}
+.front-top-title{
+    color: black;
+}
+.front-top-title:hover{
+    color: #626567;
+}
+.front-middle{
+    height: calc(100vh - 120px);
+    padding: 120px 0px 0px 0px;
+    background-color: white;
+}
+.front-bottom{
+    height: 120px;
+    padding: 20px 4%;
+    background-color: white;
+}
+.front-bottom-button{
+    color: black;
+}
+.front-bottom-button:hover{
+    color: #626567;
+}
+.social-links-container{
+    position: fixed;
+}
+.front-middle-title{
+    color: black;
+}
+
+
+/* SERVICE PAGE */
+.service-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    grid-gap: 20px 0px;
+}
+.individual-service-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    width: 60%;
+    max-width: 600px;
+    grid-gap: 0px 0px;
+    padding: 0px;
+    margin: auto;
+}
+.service-place{
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.service-hours{
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    color: black;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+.service-description{
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+    color: #17202A;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV STYLES */
+.top-line{
+    border-left: 1px solid black;
+}
+.middle-line{
+    border-left: 1px solid black;
+}
+.bottom-line{
+    border-left: 1px solid black;
+}

@@ -1,0 +1,84 @@
+.front-top{
+    height: 120px;
+    padding: 35px 4% 0px 4%;
+    position: fixed;
+}
+.front-top-button{
+    color: black;
+}
+.front-top-button:hover{
+    color: #626567;
+}
+.front-top-title{
+    color: black;
+}
+.front-top-title:hover{
+    color: #626567;
+}
+.front-middle{
+    height: calc(100vh - 120px);
+    padding: 120px 0px 0px 0px;
+}
+.front-bottom{
+    height: 120px;
+    padding: 20px 4%;
+}
+.front-bottom-button{
+    color: black;
+}
+.front-bottom-button:hover{
+    color: #626567;
+}
+.social-links-container{
+    position: fixed;
+}
+.front-middle-title{
+    color: black;
+}
+
+
+/* MAIN PAGE */
+body{
+    background-image: linear-gradient(to bottom right,#283747, #117A65 , #283747);
+}
+
+/* NAV STYLES */
+.top-line{
+    border-left: 1px solid white;
+}
+.middle-line{
+    border-left: 1px solid white;
+}
+.bottom-line{
+    border-left: 1px solid white;
+}
+
+.main-text-container{
+    height: 50%;
+}
+
+.main-text{
+    vertical-align: center;
+    text-align: center;
+    width: 875px;
+    margin: 175px auto 0px auto;
+    border-right-style: solid;
+    border-right-color: #D0D3D4;
+    color: #D0D3D4;
+    font-family: 'Alata', cursive;
+    font-size: 45px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 3.5s steps(20, end), blinking .75s steps(1,end) infinite; 
+}
+
+@keyframes typing {
+    from { width: 0px }
+    to { width: 875px }
+  }
+  
+  /* this is the animiation that will occer, it will go from transparent to the border color */
+  @keyframes blinking {
+    from, to { border-color: transparent }
+    50% { border-color: #D0D3D4 }
+  }
