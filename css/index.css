@@ -4,16 +4,16 @@
     position: fixed;
 }
 .front-top-button{
-    color: black;
+    color: #F2F3F4;
 }
 .front-top-button:hover{
-    color: #626567;
+    color: #CACFD2;
 }
 .front-top-title{
-    color: black;
+    color: #F2F3F4;
 }
 .front-top-title:hover{
-    color: #626567;
+    color: #CACFD2;
 }
 .front-middle{
     height: calc(100vh - 120px);
@@ -24,10 +24,10 @@
     padding: 20px 4%;
 }
 .front-bottom-button{
-    color: black;
+    color: #F2F3F4;
 }
 .front-bottom-button:hover{
-    color: #626567;
+    color: #CACFD2;
 }
 .social-links-container{
     position: fixed;
@@ -77,8 +77,8 @@ body{
     to { width: 875px }
   }
   
-  /* this is the animiation that will occer, it will go from transparent to the border color */
-  @keyframes blinking {
+
+@keyframes blinking {
     from, to { border-color: transparent }
     50% { border-color: #D0D3D4 }
-  }
+}

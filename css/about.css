@@ -44,12 +44,12 @@
 .about-image{
     width: 150px;
     border-radius: 50%;
-    margin: 30px calc(50% - 75px) 0px calc(50% - 75px);
+    margin: 10px calc(50% - 75px) 0px calc(50% - 75px);
 }
 .about-text{
     width: 50%;
     font-family: 'Alata', sans-serif;
-    margin: 40px auto;
+    margin: 30px auto;
     text-align: justify;
     font-size: 17px;
 }
